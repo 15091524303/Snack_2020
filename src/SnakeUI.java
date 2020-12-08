@@ -5,6 +5,7 @@ import java.awt.event.KeyListener;
 import java.awt.image.BufferedImage;
 
 public class SnakeUI extends JFrame implements KeyListener {
+    
     private BufferedImage uiImg = new BufferedImage(Constant.JFRAME_WIDTH,
             Constant.JFRAME_HEIGHT, BufferedImage.TYPE_3BYTE_BGR);
     private Rectangle rec;
